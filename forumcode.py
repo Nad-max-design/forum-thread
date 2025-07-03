@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="Emoji Forum 🗨️", layout="centered")
+st.set_page_config(page_title="Welcome to Forum Centre! 🗨️", layout="centered")
 
-st.title("🗨️ Welcome to Forum Centre!")
+st.title("Welcome to Forum Centre! 🗨️")
 st.write("Ask questions, give answers, and learn together!")
 
 # Store forum posts
