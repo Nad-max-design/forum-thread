@@ -37,6 +37,7 @@ def show_forum_threads():
             st.write(f"❓ {post['question']}")
             show_replies_section(i, post)
 
+# 💬 View and Add Replies	
 def show_replies_section(index, post):
     with st.expander("💬 View & Add Replies"):
         if post["replies"]:
